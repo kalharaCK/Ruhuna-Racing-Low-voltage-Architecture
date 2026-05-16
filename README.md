@@ -4,7 +4,7 @@ An interactive, industrial-grade systems architecture diagram and rule complianc
 
 This tool provides a "living schematic" that allows engineers to probe the internal logic, hardware interfaces, and regulatory compliance of the vehicle's electronic architecture.
 
-![System Preview](https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1200&h=600&q=80)
+
 
 ## 🏎️ Key Features
 
