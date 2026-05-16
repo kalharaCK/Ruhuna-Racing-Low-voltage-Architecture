@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-system-bg: #05070a;
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-cyan-glow: #38bdf8;
+}
+
+@layer base {
+  body {
+    @apply bg-[--color-system-bg] text-[#e2e8f0] font-sans;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-[10px] border border-white/10;
+  }
+}
+
+svg #glow {
+  filter: drop-shadow(0 0 2px #38bdf8);
+}
